@@ -1,0 +1,13 @@
+{
+  "name": "test-sequelize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^7.12.0",
+    "sequelize": "^5.12.2"
+  },
+  "scripts": {
+    "migrate:up": "npx sequelize-cli db:migrate"
+  }
+}
